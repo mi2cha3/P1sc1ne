@@ -1,0 +1,92 @@
+[
+	{
+		"id": 85,
+		"campus_id": 26,
+		"cursus_id": 21,
+		"squad_size": null,
+		"created_at": "2022-12-27T08:18:49.238Z",
+		"updated_at": "2022-12-27T08:18:49.238Z",
+		"coalitions": [
+			{
+				"id": 310,
+				"name": "Wind Blue",
+				"slug": "wind-blue",
+				"image_url": "https://cdn.intra.42.fr/coalition/image/310/icon_wind.svg",
+				"cover_url": "https://cdn.intra.42.fr/coalition/cover/310/bg_blue_wind.jpg",
+				"color": "#2ca8de",
+				"score": 105939,
+				"user_id": 146829
+			},
+			{
+				"id": 307,
+				"name": "Mountain Yellow",
+				"slug": "mountain-yellow",
+				"image_url": "https://cdn.intra.42.fr/coalition/image/307/icon_mountain.svg",
+				"cover_url": "https://cdn.intra.42.fr/coalition/cover/307/bg_mountain_yellow.jpg",
+				"color": "#e3ad03",
+				"score": 109258,
+				"user_id": 77850
+			},
+			{
+				"id": 309,
+				"name": "Forest Green",
+				"slug": "forest-green",
+				"image_url": "https://cdn.intra.42.fr/coalition/image/309/icon_forest.svg",
+				"cover_url": "https://cdn.intra.42.fr/coalition/cover/309/bg_forest_green.jpg",
+				"color": "#34b34a",
+				"score": 135846,
+				"user_id": 68139
+			},
+			{
+				"id": 308,
+				"name": "Fire red",
+				"slug": "fire-red",
+				"image_url": "https://cdn.intra.42.fr/coalition/image/308/icon_fire.svg",
+				"cover_url": "https://cdn.intra.42.fr/coalition/cover/308/bg_fire_red.jpg",
+				"color": "#d56a36",
+				"score": 113584,
+				"user_id": 59728
+			}
+		]
+	},
+	{
+		"id": 22,
+		"campus_id": 26,
+		"cursus_id": 9,
+		"squad_size": null,
+		"created_at": "2019-10-25T01:59:42.758Z",
+		"updated_at": "2020-11-26T01:49:58.143Z",
+		"coalitions": [
+			{
+				"id": 61,
+				"name": "chien",
+				"slug": "chien",
+				"image_url": "https://cdn.intra.42.fr/coalition/image/61/icon_02dog.svg",
+				"cover_url": "https://cdn.intra.42.fr/coalition/cover/61/federation_bg1.jpg",
+				"color": "#d2b85f",
+				"score": 461388,
+				"user_id": 162758
+			},
+			{
+				"id": 62,
+				"name": "singe",
+				"slug": "singe",
+				"image_url": "https://cdn.intra.42.fr/coalition/image/62/icon_03monkey.svg",
+				"cover_url": "https://cdn.intra.42.fr/coalition/cover/62/federation_bg2.jpg",
+				"color": "#9666cb",
+				"score": 543172,
+				"user_id": 150558
+			},
+			{
+				"id": 63,
+				"name": "faisan",
+				"slug": "faisan",
+				"image_url": "https://cdn.intra.42.fr/coalition/image/63/icon_01pheasant.svg",
+				"cover_url": "https://cdn.intra.42.fr/coalition/cover/63/federation_bg3.jpg",
+				"color": "#529251",
+				"score": 532604,
+				"user_id": 68139
+			}
+		]
+	}
+]
