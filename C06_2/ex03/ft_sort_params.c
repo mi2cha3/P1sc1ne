@@ -6,7 +6,7 @@
 /*   By: ktei <ktei@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/15 18:48:51 by ktei              #+#    #+#             */
-/*   Updated: 2024/09/15 22:52:55 by ktei             ###   ########.fr       */
+/*   Updated: 2024/09/25 22:35:55 by ktei             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,28 +49,29 @@ int	ft_print_params(int argc, char *argv[])
 	return (0);
 }
 
-int	main(int argc, char *argv[])
-{
-	int		i;
-	int		k;
-	char	*temp;
-
-	i = 1;
-	while (i < argc - 1)
-	{
-		k = i + 1;
-		while (argv[k])
-		{
-			if (ft_strcmp(argv[i], argv[k]) > 0)
-			{
-				temp = argv[i];
-				argv[i] = argv[k];
-				argv[k] = temp;
-			}
-			k ++;
-		}
-		i ++;
-	}
-	ft_print_params(argc, argv);
-	return (0);
-}
+// int	main(int argc, char *argv[])
+// {
+// 	int		i;
+// 	int		k;
+// 	char	*temp;
+//
+// 	i = 1;
+// 	while (i < argc - 1)
+// 	{
+// 		k = i + 1;
+// 		while (argv[k])
+// 		{
+// 			if (ft_strcmp(argv[i], argv[k]) > 0)
+// 			{
+// 				temp = argv[i];
+// 				argv[i] = argv[k];
+// 				argv[k] = temp;
+// 			}
+// 			k ++;
+// 		}
+// 		i ++;
+// 	}
+// 	ft_print_params(argc, argv);
+// 	return (0);
+// }
+//

@@ -6,7 +6,7 @@
 /*   By: ktei <ktei@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/09 17:50:26 by ktei              #+#    #+#             */
-/*   Updated: 2024/09/13 10:30:12 by ktei             ###   ########.fr       */
+/*   Updated: 2024/09/25 22:29:19 by ktei             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,17 +15,18 @@ int	ft_strcmp(char *s1, char *s2)
 	int	i;
 
 	i = 0;
-	while ((s1[i] == s2[i]) && (s1[i] != '\n') && (s2[i] != '\n'))
+	while ((s1[i] == s2[i]) && (s1[i] != '\0') && (s2[i] != '\0'))
 	{
 		i ++;
 	}
 	return (s1[i] - s2[i]);
 }
 
-#include <stdio.h>
-
-int	main(void)
-{
-	int	temp = ft_strcmp("abcde", "abcdef");
-	printf ("%d", temp);
-}
+// #include <stdio.h>
+//
+// int	main(void)
+// {
+// 	int	temp = ft_strcmp("abcde", "abcdef");
+// 	printf ("%d", temp);
+// }
+//
